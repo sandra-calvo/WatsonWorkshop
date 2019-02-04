@@ -2,7 +2,7 @@
 
 The purpose of this lab is to guide the user in the data science life cycle from raw data to an application with a machine learning model. All this using IBM Cloud tools.
 
-![alt text](https://github.com/LasseHuotari/WatsonWorkshop/blob/master/WatStudLabs/Lab%208%20-%20Application-development/images/Tools.png "New flow Text 1")
+![alt text](https://github.com/LasseHuotari/WatsonWorkshop/blob/master/Lab%208%20-%20Application-development/images/Tools.png "New flow Text 1")
 
 ## Introduction
 
