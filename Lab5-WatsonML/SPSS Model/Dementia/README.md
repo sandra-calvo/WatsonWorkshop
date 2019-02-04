@@ -49,7 +49,7 @@ Choose **Import** Node from node panel and drag&drop **Data Assets** Node to the
 
 ![alt text](https://github.com/LasseHuotari/Analyticsbasic/blob/master/images/Näyttökuva%202018-10-4%20kello%207.31.31.png "New flow Text 5")
 
-After this double click yhe **Data Asset** node and from opened panel choose **Change Data asset** Select **Dementiapart2.csv** file and choose **OK**. After you have returned to canvas remember to pree **Save**
+After this double click the **Data Asset** node and from opened panel choose **Change Data asset** Select **Dementiapart2.csv** file and choose **OK**. After you have returned to canvas remember to pree **Save**
 
 ![alt text](https://github.com/LasseHuotari/Analyticsbasic/blob/master/images/Näyttökuva%202018-10-4%20kello%207.35.46.png "New flow Text 4")
 
