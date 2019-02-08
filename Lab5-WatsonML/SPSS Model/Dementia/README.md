@@ -1,74 +1,61 @@
-# Tuntiharjoitus 2
+# SPSS Modeler Dementia Lab
 
-Tuntiharjoituksessa kaksi tavoitteennamme on tehdä saadusta datasta johtopäätöksiä ja tehdä ennustava puumalli.
+In this Lab we are focussing to SPSS Modeler. We will create Modeler flow and predictive tree model, we also create some graphs and analysis.
 
-Tehtävässä käytämme SPSS-modeler työkalua, joka on osa Watson Studiota.
+## Phase 1.
 
-## Vaihe 1.
+### Add dataset to your Watson Studio Project
 
-### Lisää data projektiin
-
-Kuten aikaisemminkin on tehty niin samalla tavalla lisää githubista löytyvä datasetti dementiapart2.csv projektiisi Watson Studiossa.
+Drag and drop Dementiapart2.csv file to your Watson Studio Project.
 
 
-### Luo Modeler flow
+### Create Modeler Flow
 
-Watson Studiossa valitse ensin projektisi ja projektin asset-välilehdellä etsi kohta **Modeler Flows** paina **New flow** painiketta
-
-
-![alt text](https://github.com/LasseHuotari/Analyticsbasic/blob/master/images/Näyttökuva%202018-10-4%20kello%207.12.13.png "New flow Text 1")
-
-Anna flowlesi nimi **Tuntiharjoitus 2_Omanimi** ja varmista että kohdat Modeler flow type on **Modeler Flow** ja Modeler Runtime on **IBM SPSS Modeler**
-
-
+Open Assets page in your Watson Studio Project and click Add to your project. Choose **Modeler Flows** and press next. Name your Flow and check that SPSS Modeler Flow is selected. Press **Create**
 
 ![alt text](https://github.com/LasseHuotari/Analyticsbasic/blob/master/images/Näyttökuva%202018-10-4%20kello%207.18.01.png "New flow Text 2")
 
-Paina **Create**
+If you have created modeler flow earlier, you can scroll down Assets page and click **New Flow** Next to Modeler Flow section in Assets page
 
-## Vaihe 2
+![alt text](https://github.com/LasseHuotari/Analyticsbasic/blob/master/images/Näyttökuva%202018-10-4%20kello%207.12.13.png "New flow Text 1")
+
+## Phase 2
 
 
-### Työkalun ominaisuudet
+### SPSS Modeler
 
-Edessäsi on tyhjä kanvas, SPSS Modeler on graafinen analytiikan työkalu, jolla voidaan tehdä analyyttisiä päätelmiä, sekä kouluttaa erilaisia malleja
+You should now see a empty Modeler flow canvs. Modeler flow is graphic tool for Analytics, where you can do preprocessing, analysis and modeling.
 
 ![alt text](https://github.com/LasseHuotari/Analyticsbasic/blob/master/images/Näyttökuva%202018-10-4%20kello%207.20.46.png "New flow Text 3")
-## kanvas
+## Canvas
 
-Keskellä oleva tyhjä tila on flown kanvas, tähän tuodaan nodeja, jotka yhdistettynä toisiinsa luovat halutun flown, eli työn ja sen järjestyksen
+The blank whitespace in the middle is called "canvas" this is the place where you create your Modeler Flow.
 
 
 ### Nodes
 
-Vasemmalla on nodes valikko, sieltä löytyy kaikki tarvittavat työkalut. Ne on jaettu toiminnallisuuden mukaan eri kategorioihin.
-
-Tässä harjoituksessa tulemme käyttämään kaikkien muiden kategorioiden nodeja, paitsi exportin. Export noden tehtävänä on tallentaa data uutena data tiedostona takaisin projektiin.
+In the left side panel you have all the operations and nodes. These are the building block for the flow.
 
 ### Toolbar
 
-Kanvaksen yläpuolella on toolbar. Toolbarista löytyy napit tarvittaviin toimintoihin, joilla kanvakseen tehtyä flowta ajetaan. Ensimmäisenä vasemmalla on node-valikon nappi, josta nodet saa esiin. Toisena on Stop and Run napit, joista varsinkin Run on tärkeä. Tällä napilla saadaan ajettua flow, ja halutut toiminnat saadaan suoritettua.
+Above Canvas there is the Toolbar where you can find all necessary buttons to wrong with flow, like for example run button.
 
-Keskeltä löytyy copy ja paste napit, joilla saa kopioitua käyttämiään nodeja ja viimeisessä osiossa on delete ja settings napit. Nodeja saa kopioitua ja poistettua myös hiiren oikealla napilla.
+## Phase 3
 
+### Data Import
 
-## Vaihe 3
+Choose **Import** Node from node panel and drag&drop **Data Assets** Node to the Canvas. 
 
-### Datan tuominen flowhun.
-
-Valitse Node valikosta **Import** osio ja sieltä raahaa **Data Asset** node kanvakselle. Nodejen raahaaminen toimii perinteisellä drag and drop menetelmällä.
 
 ![alt text](https://github.com/LasseHuotari/Analyticsbasic/blob/master/images/Näyttökuva%202018-10-4%20kello%207.31.31.png "New flow Text 5")
 
-
-
-Tämän jälkeen tuplaklikkaa kanvakselle siirrettyä **Data Asset** nodea ja valitse oikealle avautuvasta valikosta **Change data asset**. Klikkaa valikosta **Dementtiapart2.csv** Tiedostoa ja valitse sivun oikeasta alalaidasta **OK**. Palattuasi takasin kanvakselle muista painaa **Save**-nappia tallentaaksesi nodeen tekemät muutokset.
+After this double click the **Data Asset** node and from opened panel choose **Change Data asset** Select **Dementiapart2.csv** file and choose **OK**. After you have returned to canvas remember to pree **Save**
 
 ![alt text](https://github.com/LasseHuotari/Analyticsbasic/blob/master/images/Näyttökuva%202018-10-4%20kello%207.35.46.png "New flow Text 4")
 
-## Vaihe 4
+## Pahse 4
 
-### Datan preparointi
+### Data preparation
 
 #### Type node
 
