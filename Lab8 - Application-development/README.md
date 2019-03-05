@@ -2,14 +2,14 @@
 
 The purpose of this lab is to guide the user in the data science life cycle from raw data to an application with a machine learning model. All this using IBM Cloud tools.
 
-![alt text](https://github.com/LasseHuotari/WatsonWorkshop/blob/master/WatStudLabs/Lab%208%20-%20Application-development/images/Tools.png "New flow Text 1")
+![alt text](https://github.com/LasseHuotari/WatsonWorkshop/blob/master/Lab8%20-%20Application-development/images/Tools.png "New flow Text 1")
 
 ## Introduction
 
 **IBM Cloud** is a suite of cloud computing services from IBM that offers both platform as a service (PaaS) and infrastructure as a service (IaaS).
 
 
-![alt text](https://github.com/LasseHuotari/WatsonWorkshop/blob/master/WatStudLabs/Lab%208%20-%20Application-development/images/IBMCloud.png "New flow Text 2")
+![alt text](https://github.com/LasseHuotari/WatsonWorkshop/blob/master/Lab8%20-%20Application-development/images/IBMCloud.png "New flow Text 2")
 
 # Part 1
 ## Create an application that uses custom ML model
