@@ -25,3 +25,19 @@ after that click **Modeler Flow** from pop-up window.
 After that name your flow and check that all the settings are like in the picture below. Then press **create**
 
 ![](images/flowsettings.png)
+
+After this you should see a empty canvas like this:
+
+![](images/emptyflow.png)
+
+Great. Now let's add some nodes to the canvas. First thing what we need is the **data asset** node. You can find this node under the **import** dropdown from the left side of the canvas.
+
+![](images/dataasset.png)
+
+Drag & Drop that node to the empty canvas and douple click the node. This will open the node setting panel to the right-hand side.
+
+![](images/datasettings.png)
+
+Press **Change data asset** and open the **data assets** panel and choose the **Customer Mall segmentation dataset**. Pres **OK** and then **Save**.
+
+![](images/save.png)
