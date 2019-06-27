@@ -24,4 +24,4 @@ after that click **Modeler Flow** from pop-up window.
 
 After that name your flow and check that all the settings are like in the picture below. Then press **create**
 
-![](images/modelerflowsettings.png)
+![](images/flowsettings.png)
