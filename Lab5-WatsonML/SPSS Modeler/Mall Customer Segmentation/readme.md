@@ -8,7 +8,7 @@ We are using sample dataset, which can be found from Kaggle:
 
 Download the dataset and import that as a data asset to Watson Studio Project. If you aren't familiar with Watson Studio, please see my first Lab:
 
-[Lab1-Getting Started]https://github.com/LasseHuotari/WatsonWorkshop/tree/master/Lab1-GettingStarted "Lab1")
+[Lab1-Getting Started]https://github.com/LasseHuotari/WatsonWorkshop/tree/master/Lab1-GettingStarted "Lab1-Getting Started")
 
 When you have loaded the dataset open new Modeler Flow from the asset page.
 
